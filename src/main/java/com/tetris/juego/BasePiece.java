@@ -62,3 +62,4 @@ public abstract class BasePiece implements IRotator, IObtenerMatrizPieza, IGiro{
     public void rotateRight(){
         rotacionActual = (rotacionActual + 1) % (rotacionesMaximas + 1);
     }
+}  
